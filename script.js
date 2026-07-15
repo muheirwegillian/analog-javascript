@@ -14,7 +14,9 @@ function displayTime(){
     let mRotation = 6*mm;
     let sRotation = 6*ss;
 
-    hr.style
+    hr.style.transform = `rotate(&{hRotation}deg)`;
+    min.style.transform = `rotate(&{mRotation}deg)`;
+    sec.style.transform = `rotate(&{sRotation}deg)`;
 
 }
 
